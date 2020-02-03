@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    font-family: Helvetica,Arial,"Hiragino Sans GB","Microsoft Yahei","微软雅黑",STHeiti,"华文细黑",sans-serif;
+}
+.login_container{
+    background-color: rgb(247,247,247);
+    height:100%;
+    width: 100%;
+    border: none;
+}
+.login_box{
+    width:400px;
+    height:420px;
+    background-color: white;
+    position: absolute;
+    top:40%;
+    left: 50%;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px #e6e6e6,
+    -4px 4px 10px #e6e6e6,
+    4px -4px 10px #e6e6e6,
+    -4px -4px 10px #e6e6e6;
+    transform: translate(-50%,-50%);
+}
+.logo{
+    position: absolute;
+    height:128px;
+    width: 128px;
+    background-image: url(../image/logo.png);
+    top:20%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#title{
+    position: absolute;
+    left: 10%;
+    top:100%;
+    font-size: 18px;
+    color: #333333;
+    font-family: "微软雅黑";
+}
+.f1{
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    padding: 40px;
+    left: 0;
+    top:35%;
+}
+.f1 input{
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    display: block;
+    border: #bfcfd9 1px solid;
+    border-radius: 2px;
+}
+#username{
+    prompt:"wadj";
+}
+#login{
+    background: #20a53a;
+    border: none;
+    color: #FFFFFF;
+}
+.register{
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+}
+.register p{
+    white-space: nowrap;
+    color:#999999;
+}
+.register a{
+    text-decoration: none;
+    color:#999999;
+    font-size: 13px;
+}
